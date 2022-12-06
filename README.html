@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>更新履歴</h1>
+      <ul>
+        <li>2022/12/3 ver1.0配布</li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h2># このツールの目的</h2>
+        <p>UIsetはVRChatのcontact機能を利用したアニメーション補助ツールです</p>
+        <p>
+          自分で作成した物の出し入れのアニメーションや、衣装の切り替えのアニメーションなどをcontactを使ってやってみたいけど設定がよくわからない、という方の導入の助けになることを目的としています
+        </p>
+      </section>
+      <section>
+        <h2># 前提条件 UIsetはVRchatのアバター向け補助ツールです</h2>
+        <p>オブジェクトONOFFアニメーションの作成ができる方と、アバターのアップロードができる方を対象としています</p>
+        <p>またこのツールは以下の2点のunityPackageの導入を前提としております</p>
+        <ul>
+          <li><a href="https://booth.pm/ja/items/3087170">lilToon</a></li>
+          <li><a href="https://modular-avatar.nadena.dev/ja/`">ModularAvatar</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2># 導入方法</h2>
+        <ol>
+          <li>
+            以下のリンクからlilToonとModularAvatarをダウンロードしてプロジェクトにインポートしてください
+            <ul>
+              <li><a href="https://booth.pm/ja/items/3087170">lilToon</a></li>
+              <li><a href="https://modular-avatar.nadena.dev/ja/`">ModularAvatar</a></li>
+            </ul>
+          </li>
+          <li>UIset.unityPackageをプロジェクトにインポートしてください</li>
+          <li>
+            Assetフォルダに有るUIsetフォルダ直下のUIset.prefabをアバター直下にドラッグアンドドロップします
+            <p><img src="./img/3-1_1.png" /></p>
+            <p><img src="./img/3-1_2.png" /></p>
+          </li>
+          <li>
+            UIFXを開き、使いたいレイヤーを選択します。レイヤーはprefabのオブジェクト名と対応しています
+            <p><img src="./img/4-1_1.png" /></p>
+          </li>
+          <li>
+            レイヤー内のONに、ボタンを押したときにONにしたいアニメ<br />OFFにボタンをもう一度押したときにOFFにしたいアニメを設定します。
+            <p><img src="./img/5-1_1.png" /></p>
+          </li>
+          <li>
+            UIを非表示にします。
+            <p><img src="./img/5-1_1.png" /></p>
+          </li>
+          <li>
+            <p>左手にある青い球体があることを確認します</p>
+            <p><img src="./img/7-1_1.png" /></p>
+            <p>
+              このとき左手に球体がない場合はSpere_pointのMABonePRoxyから、アバターの左手薬指の先のボーンを参照させてください
+            </p>
+            <p>MenuSphere_pointの中にあるMenuSphereから位置を調整する事ができます</p>
+          </li>
+          <li>
+            メニューの中身は以下のようになっています
+            <p><img src="./img/8-1_1.png" /></p>
+            <ul>
+              <li>①閉じるボタン</li>
+              <li>②アニメーションONボタン（数字はレイヤーと対応</li>
+              <li>③サブメニューを開くボタン</li>
+              <li>
+                ④ロックボタン（ONにするとメニューを閉じた後に開かなくなるため、暴発防止に使ってください。ロックボタンはEXメニューにも追加されています
+                <img src="./img/8-1_2.png" />
+              </li>
+              <li>
+                ⑤サブメニューのアニメーションONボタン
+                <p>
+                  サブメニューのアニメーションはすべてサブメニュー内でいずれか一つしか選択できないようになっています
+                </p>
+                <p>
+                  例えばサブメニュ1-1がONになっている状態で、サブメニュー1-2をONにするとサブメニュー1-1が自動的にOFFになります
+                </p>
+                <p>サブメニュー内をすべてOFFにしたいときは、ONになっているオブジェクトをもう一度タッチしてください</p>
+              </li>
+              <li>⑥サブメニューを閉じるボタン</li>
+              <li>後は自分で使いたいアニメーションを設定して、楽しんでみてください</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2># 使わせていただいたもの</h2>
+        <ul>
+          <li>
+            <a href="https://booth.pm/ja/items/1547585"
+              >満天星躑躅だよ様より【Unity】Parallax HUD Shader テクスチャ素材付き(ライセンス情報同梱済み)</a
+            >
+          </li>
+          <li><a href="https://booth.pm/ja/items/3087170">lilLab様より lilToon </a></li>
+          <li><a href="https://modular-avatar.nadena.dev/ja/">bd_様より ModularAvatar </a></li>
+          <li>
+            <a href="https://booth.pm/ja/items/2653422"> ないとまろうど様より Constraint式ワールド固定ギミック</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+  <footer>2022 ©hakoiri</footer>
+</html>
