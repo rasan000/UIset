@@ -34,7 +34,12 @@
 
 - 2022/12/12 ver3.0.0
   - イベントの発火材料としてUIsetRingを追加
-  - 同時に説明文を一部変更
+
+- 2022/12/18 ver3.1.0
+  - エフェクト追加
+  - 効果音追加
+  - 上記に伴いライセンス関係の文章を更新
+  - パラメータなどのリファクタリングを行った
 
 ## このツールの目的
 
@@ -290,6 +295,7 @@ UIset に付属しているアニメーター UIFX は、アバターをルー�
 - <a href="https://modular-avatar.nadena.dev/ja/">bd\_様より ModularAvatar </a>
 - <a href="https://booth.pm/ja/items/2653422"> ないとまろうど様より Constraint 式ワールド固定ギミック</a>
 - <a href='https://fonts.google.com/icons?selected=Material+Icons'>google Material Icons</a>
+- <a href='https://soundeffect-lab.info/copyright/'>効果音ラボ 様より 効果音一式</a>
 
 ## 連絡先
 
@@ -326,3 +332,6 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <a href='https://github.com/google/material-design-icons/blob/master/LICENSE'>Apache License 2.0</a>
+
+© 2013-2022 <a href='https://soundeffect-lab.info/copyright/'>効果音ラボ</a> All Rights Reserved
+
